@@ -7,3 +7,8 @@ In this repo Web Scraping is done on an E-Commerce Website using BeautifulSoup i
 [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
 
+Known issue (urllib and “SSL: CERTIFICATE_VERIFY_FAILED” Error)
+For errors running UClient package run the following:
+
+pip install certifi
+/Applications/Python\ 3.6/Install\ Certificates.command
